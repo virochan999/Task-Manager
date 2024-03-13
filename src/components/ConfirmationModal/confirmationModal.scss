@@ -1,0 +1,15 @@
+.confirmation-modal {
+
+  p {
+    color: #ff0000;
+    font-weight: 700;
+  }
+
+  &__btn-wrapper {
+    margin-top: 1rem;
+    display: flex;
+    padding: 0 1rem;
+    justify-content: center;
+    gap: 1rem;
+  }
+}

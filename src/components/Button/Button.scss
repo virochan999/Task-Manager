@@ -1,0 +1,70 @@
+.btn {
+  align-items: center;
+  appearance: button;
+  border-radius: 0.35rem;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  cursor: pointer;
+  padding: 0.5rem 1.1rem;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  touch-action: manipulation;
+  @media screen and (max-width: 768px) {
+    font-size: 0.8rem;
+    padding: 0.4rem;
+    height: max-content;
+  }
+}
+
+.primary, .secondary, .edit {
+  background-color: var(--color-btn-primary);
+  display: flex;
+  gap: 0.2rem;
+}
+
+.secondary {
+  padding: 0.2rem 0.5rem;
+}
+
+.primary:active, .secondary:active, .edit:active {
+  background-color: var(--btn-bg-primary);
+}
+
+.primary:hover, .secondary:hover, .edit:hover {
+  background-color: var(--btn-hover-primary);
+}
+
+.filter, .order-by {
+  background-color: var(--btn-bg-filter);
+  color: #003049;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.order-by.active {
+  background-color: var(--btn-bg-order-active);
+  color: #fff;
+
+  &:hover {
+    background-color: var(--btn-hover-order-active);
+  }
+}
+
+.filter:hover, .order-by:hover {
+  background-color: #e5e5e5;
+}
+
+.edit, .delete {
+  padding: 0.2rem 0.5rem 0.2rem 0.2rem;
+  align-items: center;
+  color: var(--text-white);
+}
+
+.delete {
+  background-color: #d11a2a;
+  display: flex;
+  gap: 0.2rem;
+}
+
+.delete:hover {
+  background-color: var(--btn-hover-delete);
+}

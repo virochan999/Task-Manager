@@ -1,0 +1,12 @@
+.home-page {
+
+  &__order-btns {
+    display: flex;
+    gap: 1rem;
+
+    &--image.active {
+      filter: invert(1);
+    }
+  }
+
+}

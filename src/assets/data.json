@@ -1,0 +1,28 @@
+{
+  "taskData" : [
+    {
+      "id": 1,
+      "name": "My first task",
+      "dueDate": "12/12/2024",
+      "status": "To-Do"
+    },
+    {
+      "id": 2,
+      "name": "My Second task",
+      "dueDate": "12/12/2024",
+      "status": "To-Do"
+    },
+    {
+      "id": 3,
+      "name": "My Third task",
+      "dueDate": "12/12/2024",
+      "status": "InProgress"
+    },
+    {
+      "id": 4,
+      "name": "My Fourth task",
+      "dueDate": "12/12/2024",
+      "status": "Done"
+    }
+  ]
+}

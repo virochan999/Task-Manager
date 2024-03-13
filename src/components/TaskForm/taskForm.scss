@@ -1,0 +1,63 @@
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: #000000;
+
+  &__heading {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__required-sign {
+    color: #ff0000;
+    margin-left: 0.5rem;
+  }
+
+  &__input-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    position: relative;
+
+    label {
+      font-weight: 700;
+    }
+
+    input {
+      width: 20rem;
+      background-color: #edede9;
+      border: none;
+      padding: 0.5rem;
+      color: #000000;
+      border-radius: 0.2rem;
+    }
+
+    &--status {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .error-message {
+      color: var(--color-error);
+      font-weight: 500;
+      margin-left: 0.5rem;
+    }
+  }
+
+  &__status-label {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  &__btn-wrapper {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+}
